@@ -1,0 +1,22 @@
+compile with
+
+gcc code.c -o code -lpthread
+============================
+run with
+
+./code 0
+
+to only print final tables
+
+============================
+
+run with
+
+./code 1
+
+to print intermediate tables as well
+
+============================
+
+inputfile contains number of routers ( = n) in first line
+next follows n*n matrix where 0 means no connection between routers, and any other number indicates link number between those two routers
